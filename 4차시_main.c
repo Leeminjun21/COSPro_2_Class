@@ -8,7 +8,7 @@ int main(void)
 	double divResult;
 	//divResult = (double)num1 / (double)num2;
 	divResult = (double)num1 / num2;
-	printf("³ª´°¼À °á°ú : %f \n ", divResult);
+	printf("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ : %f \n ", divResult);
 
 	return 0;
 	
@@ -30,8 +30,8 @@ int main(void)
 		int num3 = 129;
 		char ch = num3;
 
-		printf("Á¤¼ö 245¸¦ ½Ç¼ö·Î : %lf \n", num1);
-		printf("½Ç¼ö 3.14159¸¦ Á¤¼ö·Î : %d \n", num2);
-		printf("Å« Á¤¼ö 129¸¦ ÀÛÀº Á¤¼ö·Î : %d \n", ch);
+		printf("ì •ìˆ˜ 245ë¥¼ ì‹¤ìˆ˜ë¡œ : %lf \n", num1);
+		printf("ì‹¤ìˆ˜ 3.14159ë¥¼ ì •ìˆ˜ë¡œ : %d \n", num2);
+		printf("í° ì •ìˆ˜ 129ë¥¼ ì‘ì€ ì •ìˆ˜ë¡œ : %d \n", ch);
 
 		*/
