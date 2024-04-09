@@ -6,17 +6,17 @@ int main(void)
 	double num2;
 	long double num3;
 
-	printf(" ½Ç¼ö ÀÔ·Â1(e Ç¥±â¹ıÀ¸·Î) : ");
+	printf(" ì‹¤ìˆ˜ ì…ë ¥1(e í‘œê¸°ë²•ìœ¼ë¡œ) : ");
 	scanf_s("%f", &num1);
-	printf("ÀÔ·ÂÇÑ ½Ç¼ö %f \n", num1);
+	printf("ì…ë ¥í•œ ì‹¤ìˆ˜ %f \n", num1);
 
-	printf(" ½Ç¼ö ÀÔ·Â2(e Ç¥±â¹ıÀ¸·Î) : ");
+	printf(" ì‹¤ìˆ˜ ì…ë ¥2(e í‘œê¸°ë²•ìœ¼ë¡œ) : ");
 	scanf_s("%lf", &num2);
-	printf("ÀÔ·ÂÇÑ ½Ç¼ö %lf \n", num2);
+	printf("ì…ë ¥í•œ ì‹¤ìˆ˜ %lf \n", num2);
 
-	printf(" ½Ç¼ö ÀÔ·Â3(e Ç¥±â¹ıÀ¸·Î) : ");
+	printf(" ì‹¤ìˆ˜ ì…ë ¥3(e í‘œê¸°ë²•ìœ¼ë¡œ) : ");
 	scanf_s("%Lf", &num3);
-	printf("ÀÔ·ÂÇÑ ½Ç¼ö %Lf \n", num3);
+	printf("ì…ë ¥í•œ ì‹¤ìˆ˜ %Lf \n", num3);
 
 
 	return 0;
@@ -47,15 +47,15 @@ int myAge = 12;
 	//printf("%s %c \n", "AAAA", 'd');
 
 	/*
-	printf("%-8s %14s %5s \n", "ÀÌ ¸§", "±â°è°øÇĞ", "ÇĞ³â");
-	printf("%-8s %10s %5s \n", "ÀÌ ¸§", "±â°è°øÇĞ", "ÇĞ³â");
+	printf("%-8s %14s %5s \n", "ì´ ë¦„", "ê¸°ê³„ê³µí•™", "í•™ë…„");
+	printf("%-8s %10s %5s \n", "ì´ ë¦„", "ê¸°ê³„ê³µí•™", "í•™ë…„");
 	*/
 	
 	/*
 		int num1, num2, num3;
 
-		printf("¼¼ °³ÀÇ Á¤¼ö ÀÔ·Â:");
+		printf("ì„¸ ê°œì˜ ì •ìˆ˜ ì…ë ¥:");
 		scanf("%d %o %x", &num1, &num2, &num3);
-		printf("ÀÔ·ÂµÈ Á¤¼ö 10Áø Ãâ·Â : ");
+		printf("ì…ë ¥ëœ ì •ìˆ˜ 10ì§„ ì¶œë ¥ : ");
 		printf("%d %d %d \n", num1, num2, num3);
 		*/
