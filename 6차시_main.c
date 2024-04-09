@@ -31,7 +31,7 @@ while (num <3)
 /*
 dan = 0, num = 0;
 
-printf("±¸±¸´ÜÀÇ ´Ü¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+printf("êµ¬êµ¬ë‹¨ì˜ ë‹¨ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”");
 scanf_s("%d", &dan);
 
 while (num <= 9)
@@ -86,7 +86,7 @@ while (num <= 9)
 						int total = 0;
 						int i = 0, sum = 0;
 
-						printf("0ºÎÅÍ sum ±îÁö µ¡¼À sumÀº?");
+						printf("0ë¶€í„° sum ê¹Œì§€ ë§ì…ˆ sumì€?");
 						scanf_s("%d", &sum);
 						printf("%d", total);
 
@@ -110,7 +110,7 @@ while (num <= 9)
 							for (; input >= 0.0;)
 							{
 								total += input;
-								printf(" ½Ç¼ö ÀÔ·Â(minus to quit) :");
+								printf(" ì‹¤ìˆ˜ ìž…ë ¥(minus to quit) :");
 								scanf_s("%lf", &input);
 								num++;
 							}
@@ -118,5 +118,5 @@ while (num <= 9)
 							printf("\n");
 							printf(" total sum = %lf \n\n", total);
 
-							printf("Æò±Õ : %lf \n\n", total / (num - 1));
+							printf("í‰ê·  : %lf \n\n", total / (num - 1));
 							*/
