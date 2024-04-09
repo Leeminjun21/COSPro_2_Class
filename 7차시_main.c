@@ -4,8 +4,8 @@ int main(void)
 {
 	char sel;
 
-	printf("M ¿ÀÀü, A ¿ÀÈÄ, E Àú³á \n ");
-	printf("ÀÔ·Â : ");
+	printf("M ì˜¤ì „, A ì˜¤í›„, E ì €ë… \n ");
+	printf("ì…ë ¥ : ");
 	scanf("%c", &sel);
 
 	switch (sel)
@@ -24,7 +24,7 @@ int main(void)
 			break;
 
 		default :
-			printf("Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù. \n");
+			printf("ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤. \n");
 
 	}
 	return 0;
@@ -33,20 +33,20 @@ int main(void)
 /*
 int num = 0;
 
-printf("Á¤¼ö ÀÔ·Â :");
+printf("ì •ìˆ˜ ì…ë ¥ :");
 scanf("%d", &num);
 
 if (num < 0)
 {
-printf("ÀÔ·ÂµÈ ¼ö´Â À½¼öÀÔ´Ï´Ù.\n");
+printf("ì…ë ¥ëœ ìˆ˜ëŠ” ìŒìˆ˜ì…ë‹ˆë‹¤.\n");
 }
 if (num > 0)
 {
-printf("ÀÔ·ÂµÈ ¼ö´Â ¾ç¼öÀÔ´Ï´Ù.\n");
+printf("ì…ë ¥ëœ ìˆ˜ëŠ” ì–‘ìˆ˜ì…ë‹ˆë‹¤.\n");
 }
 if (num == 0)
 {
-printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
+printf("ì…ë ¥ëœ ìˆ˜ëŠ” 0ì…ë‹ˆë‹¤.\n");
 }
 */
 
@@ -55,16 +55,16 @@ printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
 	double num1 = 0.0, num2=0.0;
 	double result = 0.0;
 
-	printf("1. µ¡¼À 2. »¬¼À 3. °ö¼À 4. ³ª´°¼À \n");
-	printf("¼±ÅÃÇÏ¼¼¿ä ?");
+	printf("1. ë§ì…ˆ 2. ëº„ì…ˆ 3. ê³±ì…ˆ 4. ë‚˜ëˆ—ì…ˆ \n");
+	printf("ì„ íƒí•˜ì„¸ìš” ?");
 	scanf("%d", &opt);
 
 	if ((opt < 1) || (opt > 4))
 	{
-		printf("Àß¸ø ÀÔ·Â ÇÏ¿´½À´Ï´Ù. \n");
+		printf("ì˜ëª» ì…ë ¥ í•˜ì˜€ìŠµë‹ˆë‹¤. \n");
 		return -1;
 	}
-	printf("µÎ°³ÀÇ ½Ç¼ö ÀÔ·Â");
+	printf("ë‘ê°œì˜ ì‹¤ìˆ˜ ì…ë ¥");
 	scanf("%lf %lf", &num1, &num2);
 
 	if (opt == 1)
@@ -83,23 +83,23 @@ printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
 	{
 		result = num1 / num2;
 	}
-	printf("°á°ú : %lf \n", result);
+	printf("ê²°ê³¼ : %lf \n", result);
 
 
 	*/
 
 	/*
 		int num;
-		printf("Á¤¼ö ÀÔ·Â : ");
+		printf("ì •ìˆ˜ ì…ë ¥ : ");
 		scanf("%d", &num);
 
 		if (num < 0)
 		{
-			printf("ÀÔ·ÂµÈ Á¤¼ö´Â 0º¸´Ù ÀÛ´Ù \n");
+			printf("ì…ë ¥ëœ ì •ìˆ˜ëŠ” 0ë³´ë‹¤ ì‘ë‹¤ \n");
 		}
 		else
 		{
-			printf("ÀÔ·ÂµÈ Á¤¼ö´Â 0º¸´Ù ÀÛÁö ¾Ê´Ù \n");
+			printf("ì…ë ¥ëœ ì •ìˆ˜ëŠ” 0ë³´ë‹¤ ì‘ì§€ ì•Šë‹¤ \n");
 		}
 		*/
 
@@ -108,12 +108,12 @@ printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
 			double num1 = 0.0, num2 = 0.0;
 			double result = 0.0;
 
-			printf("1. µ¡¼À 2. »¬¼À 3. °ö¼À 4. ³ª´°¼À \n");
-			printf("¼±ÅÃÇÏ¼¼¿ä ?");
+			printf("1. ë§ì…ˆ 2. ëº„ì…ˆ 3. ê³±ì…ˆ 4. ë‚˜ëˆ—ì…ˆ \n");
+			printf("ì„ íƒí•˜ì„¸ìš” ?");
 			scanf("%d", &opt);
 
 
-			printf("µÎ°³ÀÇ ½Ç¼ö ÀÔ·Â");
+			printf("ë‘ê°œì˜ ì‹¤ìˆ˜ ì…ë ¥");
 			scanf("%lf %lf", &num1, &num2);
 
 			if (opt == 1)
@@ -134,21 +134,21 @@ printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
 			}
 			else
 			{
-				printf("Àß¸ø ÀÔ·Â ÇÏ¿´½À´Ï´Ù. \n");
+				printf("ì˜ëª» ì…ë ¥ í•˜ì˜€ìŠµë‹ˆë‹¤. \n");
 				return -1;
 			}
-			printf("°á°ú :%lf \n", result);
+			printf("ê²°ê³¼ :%lf \n", result);
 			*/
 
 			/*
 			int num, abs;
 
-			printf("Á¤¼ö ÀÔ·Â : ");
+			printf("ì •ìˆ˜ ì…ë ¥ : ");
 			scanf("%d", &num);
 
 			abs = (num > 0) ? num : num * (- 1);
 
-			printf("Àı´ñ°ª : %d \n\n", abs);
+			printf("ì ˆëŒ“ê°’ : %d \n\n", abs);
 			*/
 
 			/*
@@ -185,24 +185,24 @@ printf("ÀÔ·ÂµÈ ¼ö´Â 0ÀÔ´Ï´Ù.\n");
 
 			/*
 			int num;
-			printf("1~5 Á¤¼ö ÀÔ·Â :");
+			printf("1~5 ì •ìˆ˜ ì…ë ¥ :");
 			scanf("%d", &num);
 			switch (num)
 			{
 				case 1:
-					printf("1Àº one \n");
+					printf("1ì€ one \n");
 					break;
 				case 2:
-					printf("2Àº two \n");
+					printf("2ì€ two \n");
 					break;
 				case 3:
-					printf("3Àº three \n");
+					printf("3ì€ three \n");
 					break;
 				case 4:
-					printf("4Àº four \n");
+					printf("4ì€ four \n");
 					break;
 				case 5:
-					printf("5Àº five \n");
+					printf("5ì€ five \n");
 					break;
 				default:
 					printf("I do now know~~ \n");
