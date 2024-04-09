@@ -7,9 +7,9 @@ int main(void)
 	int j = 0;
 	int cnt = 0;
 	int sum = 0;
-	printf("1-num±îÁöÀÇ °èÂ÷ ¼ö¿­ÀÇ ÇÕÀ» ±¸ÇÏ¼¼¿ä numÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("1-numê¹Œì§€ì˜ ê³„ì°¨ ìˆ˜ì—´ì˜ í•©ì„ êµ¬í•˜ì„¸ìš” numì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d", &num);
-	printf("\n\n\nfor¹® ÀÌ¿ë \n\n\n");
+	printf("\n\n\nforë¬¸ ì´ìš© \n\n\n");
 
 	for (i = 2; i <= num; i = i + j)
 	{
@@ -18,8 +18,8 @@ int main(void)
 		printf("cnt= %2d,  j=  %2d, i= %3d, sum = %d\n", cnt, j, i, sum);
 	}
 
-	printf("\n\n\nwhile¹® ÀÌ¿ë \n\n\n");
-	i = 2; // i ÃÊ±âÈ­
+	printf("\n\n\nwhileë¬¸ ì´ìš© \n\n\n");
+	i = 2; // i ì´ˆê¸°í™”
 	sum = 0;
 	j = 0;
 
@@ -31,8 +31,8 @@ int main(void)
 		i = i + j;
 	}
 
-	printf("\n\n\ndo while¹® ÀÌ¿ë \n\n\n");
-	i = 2; // i ÃÊ±âÈ­
+	printf("\n\n\ndo whileë¬¸ ì´ìš© \n\n\n");
+	i = 2; // i ì´ˆê¸°í™”
 	sum = 0;
 	j = 0;
 	do
@@ -52,9 +52,9 @@ int num = 0;
 int i = 0;
 int sum = 0;
 
-printf("1-num±îÁöÀÇ ÇÕÀ» ±¸ÇÏ¼¼¿ä numÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+printf("1-numê¹Œì§€ì˜ í•©ì„ êµ¬í•˜ì„¸ìš” numì„ ì…ë ¥í•˜ì„¸ìš” : ");
 scanf("%d", &num);
-printf("\n\n\nfor¹® ÀÌ¿ë \n\n\n");
+printf("\n\n\nforë¬¸ ì´ìš© \n\n\n");
 for (i = 1; i<= num;i++)
 {
 	//sum = sum + i;
@@ -64,10 +64,10 @@ for (i = 1; i<= num;i++)
 	printf("%d + ", i);
 }
 
-printf("\b\b = %d\n\n\n" ,sum);  //backspace¸¦ ÀÌ¿ëÇÏ¿© + Áö¿ì±â
+printf("\b\b = %d\n\n\n" ,sum);  //backspaceë¥¼ ì´ìš©í•˜ì—¬ + ì§€ìš°ê¸°
 
-printf("\n\n\nwhile¹® ÀÌ¿ë \n\n\n");
-i = 1; // i ÃÊ±âÈ­
+printf("\n\n\nwhileë¬¸ ì´ìš© \n\n\n");
+i = 1; // i ì´ˆê¸°í™”
 sum = 0;
 while (i <= num)
 {
@@ -77,10 +77,10 @@ while (i <= num)
 	printf("%d + ", i);
 	i++;
 }
-printf("\b\b = %d\n\n\n", sum);  //backspace¸¦ ÀÌ¿ëÇÏ¿© + Áö¿ì±â
+printf("\b\b = %d\n\n\n", sum);  //backspaceë¥¼ ì´ìš©í•˜ì—¬ + ì§€ìš°ê¸°
 
-printf("\n\n\ndo while¹® ÀÌ¿ë \n\n\n");
-i = 1; // i ÃÊ±âÈ­
+printf("\n\n\ndo whileë¬¸ ì´ìš© \n\n\n");
+i = 1; // i ì´ˆê¸°í™”
 sum = 0;
 do
 
@@ -92,7 +92,7 @@ do
 	i++;
 } while (i <= num);
 
-printf("\b\b = %d\n\n\n", sum);  //backspace¸¦ ÀÌ¿ëÇÏ¿© + Áö¿ì±â
+printf("\b\b = %d\n\n\n", sum);  //backspaceë¥¼ ì´ìš©í•˜ì—¬ + ì§€ìš°ê¸°
 */
 
 /*
