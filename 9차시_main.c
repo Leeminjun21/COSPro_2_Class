@@ -44,7 +44,7 @@ int sub(int num1, int num2)
 
 void ShowAddResult(int num)
 {
-	printf("µ¡¼À °á°ú Ãâ·Â %d\n", num);
+	printf("ë§ì…ˆ ê²°ê³¼ ì¶œë ¥ %d\n", num);
 }
 int ReadNum(void)
 {
@@ -55,16 +55,16 @@ int ReadNum(void)
 
 void HowToUseThisProg(void)
 {
-	printf("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¸é µ¡¼À °á°ú°¡ Ãâ·ÂµË´Ï´Ù.\n");
-	printf("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+	printf("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œë©´ ë§ì…ˆ ê²°ê³¼ê°€ ì¶œë ¥ë©ë‹ˆë‹¤.\n");
+	printf("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
 
 }
 int main(void)
 {
 	int num1, num2;
-	printf("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+	printf("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
 	scanf("%d %d", &num1, &num2);
-	printf("%d¿Í %d Áõ Àı´ñ°ªÀÌ Å« Á¤¼ö : %d \n", num1, num2, AbsoCompare(num1, num2));
+	printf("%dì™€ %d ì¦ ì ˆëŒ“ê°’ì´ í° ì •ìˆ˜ : %d \n", num1, num2, AbsoCompare(num1, num2));
 	
 	
 	//example1();
